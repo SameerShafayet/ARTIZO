@@ -1,0 +1,107 @@
+
+/* Import external styles */
+@import 'home.css';
+
+
+body {
+    height: 100vh;
+    position: relative;
+    background:  #DFEDDC;
+}
+
+.containerforServices{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.hed2 {
+    padding-top: 30%;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    color: rgb(0, 48, 37);
+    font-weight: 800; /* Increase the font weight for more boldness */
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px; /* Increase the font size */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.services{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.cardforServices {
+    height: 300px;
+    width: 350px;
+    text-align: center;
+    background: #ffffff; /* Updated background color */
+    padding: 20px 15px;
+    /* margin-top: 10%; */
+    margin-bottom: 30px;
+    border-radius: 15px; /* Slightly increased border-radius */
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(51, 89, 58, 0.5); /* Darker box shadow for increased depth */
+
+   
+    
+}
+
+
+ .titleforServices {
+    font-size: 32px; /* Slightly increased font size for emphasis */
+    color: rgb(2, 82, 63);
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font family */
+    font-weight: bold;
+    letter-spacing: 1px; /* Increased letter spacing for readability and style */
+}
+
+
+
+.titleforServices + p{
+    font-size: 16px; /* Adjusted paragraph font size */
+    line-height: 1.6; /* Improved readability with increased line height */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+.cardforServices:hover {
+   background-color: rgb(216, 240, 172)
+}
+
+
+ .icon{
+    padding: 5px 0;
+    color: white;
+}
+
+ .icon i{
+    font-size: 40px;
+    color: rgb(0, 116, 89);
+}
+
+
+
+
+
+
+
+
+/* Adjustments for specific icons */
+ .icon i.fa-mobile-alt {
+    font-size: 48px;
+}
+
+ .icon i.fa-paint-brush {
+    font-size: 48px;
+}
+
