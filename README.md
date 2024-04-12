@@ -5,3 +5,4 @@ This project uses-
 
 Frontend- HTML, CSS, Javascript, Bootstrap
 Backend- MYSQL, NodeJS
+For payment integration, SSLCommerze API was used 
